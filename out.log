@@ -1,0 +1,23 @@
+--------------------
+
+Best Hyperparam for DPI:
+'C': [10]
+'gamma': [1]
+'kernel': ['linear']
+
+Classification Report:
+
+              precision    recall  f1-score   support
+
+      Class 0       0.90      0.85      0.87       100
+      Class 1       0.80      0.87      0.83       150
+      Class 2       0.75      0.70      0.72       50
+
+    accuracy                           0.83       300
+   macro avg       0.82      0.81      0.81       300
+weighted avg       0.83      0.83      0.83       300
+
+
+Cross-validation scores: [0.82]
+
+Average cross-validation score: 0.818
